@@ -1,7 +1,9 @@
+
 const { MongoClient } = require("mongodb");
 const docs = require("./user-init.json");
 // Replace the uri string with your MongoDB deployment's connection string.
-const uri = "mongodb://localhost:27017";
+
+const uri = "mongodb+srv://ftkarda:42WAqXH2aiQyPhPG@cluster0.blqc2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 async function run() {

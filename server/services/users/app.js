@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
+
 const express = require("express");
 const app = express();
 const userRoute = require("./routes/userRoute");
@@ -16,8 +20,10 @@ app.get("/", (req, res) => {
 
 app.use("/users", userRoute);
 
-connect().then(() => {
-  app.listen(PORT, () => {
-    console.log("app listening in port", PORT);
-  });
-});
+connect()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log("app listening in port", PORT);
+    });
+  })
+  .catch((error) => console.log(error, "<<<<<<"));
