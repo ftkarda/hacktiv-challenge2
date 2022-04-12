@@ -1,7 +1,7 @@
 const { ApolloServer, gql } = require("apollo-server");
-const PORT = 4000;
-const USERS_URL = "http://localhost:4001";
-const MAIN_ENTITY_URL = "http://localhost:4002";
+const PORT = process.env.PORT || 4000;
+const USERS_URL = "https://news-portal-service-users.herokuapp.com";
+const MAIN_ENTITY_URL = "https://news-portal-service-app.herokuapp.com";
 const axios = require("axios");
 const redis = require("./config/redisConfig");
 
