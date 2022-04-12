@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "username": "testing",
+        "email": "testing@gmail.com",
+        "role": "Admin",
+        "phoneNumber": "123456",
+        "address": "tesitng address"
+    },
+    {
+        "id": 2,
+        "username": "arda",
+        "email": "arda@gmail.com",
+        "role": "Admin",
+        "phoneNumber": "123456",
+        "address": "address arda"
+    },
+    {
+        "id": 3,
+        "username": "hanif",
+        "email": "hanif@gmail.com",
+        "role": "Admin",
+        "phoneNumber": "123456",
+        "address": "testing"
+    }
+]

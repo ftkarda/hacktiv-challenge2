@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "title": "edit post 1",
+      "content": "edit post 1",
+      "categoryId": "4",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_.jpg",
+      "authorId": 1,
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "Category A",
+      "id": 4
+    },
+    {
+      "name": "Category B",
+      "id": 5
+    },
+    {
+      "name": "Category C",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "role": "Admin",
+      "phoneNumber": "08567988979",
+      "address": "qwer1234"
+    },
+    {
+      "name": "testing",
+      "email": "testing@gmail.com",
+      "password": "123456",
+      "phoneNumber": "1234123123",
+      "address": "jl lkmd",
+      "role": "Admin",
+      "id": 2
+    },
+    {
+      "name": "testing 2",
+      "email": "testing2@gmail.com",
+      "password": "12345",
+      "phoneNumber": "123456",
+      "address": "testing@gmal",
+      "role": "Admin",
+      "id": 3
+    }
+  ]
+}
